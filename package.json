@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.17.1",
-    "yarn": "^1.22.19"
+    "cypress": "^12.17.1"
   }
 }
