@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "chrome": "npx cypress run --spec cypress/integration/examples/Test1.cy.js --browser chrome"
+    "chrome": "npx cypress run --spec cypress/integration/examples/Test1.cy.js --headed --browser chrome",
+    "edge": "npx cypress run --spec cypress/integration/examples/Test1.cy.js --headed --browser edge"
   },
   "author": "",
   "license": "ISC",
